@@ -5,6 +5,7 @@
 .btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     font-weight: $btn-font-weight;
     text-align: center;
     white-space: nowrap;
@@ -111,7 +112,7 @@ $value in $theme-colors {
 // Block button
 //
 .btn-block {
-    display: block;
+    display: flex;
     width: 100%;
     // Vertically space out multiple block buttons
     +.btn-block {
