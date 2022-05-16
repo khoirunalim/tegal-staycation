@@ -8,6 +8,7 @@ import Testimony from 'parts/Testimony';
 import Footer from 'parts/Footer';
 
 import landingPage from 'json/landingPage.json';
+
 export default class LandingPages extends Component {
   constructor(props) {
     super(props);
